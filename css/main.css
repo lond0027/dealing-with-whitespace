@@ -10,7 +10,7 @@ html {
 
 body {
   padding: 1rem;
-  margin: 0rem;
+  margin: 0;
   border-left: 2px;
   border-right: 2px;
 }
@@ -21,41 +21,52 @@ article header {
   border-bottom: 2px solid #999;
 }
 
-article{
+article {
   border-bottom: 1px solid #999;
   margin-bottom: .5rem;
 }
 
-article h1, {
+article h1 {
   color: #222;
   font-family: "Crimson Text", serif;
-  font-size: 1.5rem;
+  font-size: 1em;
   font-weight: normal;
   margin-bottom: 0;
   margin-top: .4rem;
   line-height: 1.3;
 }
 
-h1 + p {
-  margin:1rem 0;
+article header p {
+  margin: 1rem 0;
   font-family: "Crimson Text", serif;
   font-style: italic;
   font-size: 1.125rem;
   font-weight: normal;
 }
 
-p {
-  margin:1rem 0;
+article p {
+  margin: 1rem 0;
   font-family: "Crimson Text", serif;
   font-style: normal;
   font-size: 1.125rem;
   font-weight: normal;
-  color:#222;
-  margin-bottom: 1.3;
+  color: #222;
+  margin-bottom: 1.3rem;
 }
 
 blockquote {
   font-size: 1.125rem;
   color: #555;
   font-family: italic;
+}
+
+.quote {
+  font-size: 1em;
+}
+
+article ol {
+  text-align: left;
+  padding-left: 1rem;
+  color: #222;
+  padding-top: .8rem;
 }
